@@ -1,3 +1,16 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://pansalegrand.github.io/"
+languageCode = "en-us"
+title = "Pansa Legrand — Learning and Teaching Notes"
+theme = "PaperMod"
+
+# Allow raw HTML in Markdown (useful for math/iframes)
+[markup.goldmark.renderer]
+unsafe = true
+
+# Syntax highlight: leave classes so theme CSS can style
+[markup.highlight]
+noClasses = false
+
+[params]
+  defaultTheme = "auto"
+  math = true  # enable KaTeX support in PaperMod
